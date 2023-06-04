@@ -1,6 +1,6 @@
 Game dev A2 stealth game
 
-Mike Hammond (5822283) Mar 15, 2023
+Mike Hammond Mar 15, 2023
 
 About
 play as zombie sneaking into a survivor camp, avoid guards as you sneak through the base to find the survivors old nuke and set it off! 
