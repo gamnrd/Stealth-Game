@@ -3559,20 +3559,17 @@ MonoBehaviour:
     m_Bits: 8
   isPursuing: 0
   playerVisible: 0
-  player: {fileID: 0}
+  alertable: 1
+  playerLastPos: {x: 0, y: 0, z: 0}
   pursuitSpeed: 7.5
   playerDistance: 0
   distanceToCapture: 1.5
-  playerLastPos: {x: 0, y: 0, z: 0}
+  player: {fileID: 0}
   alertPopup: {fileID: 367962482127474232, guid: 25daeb251936ff749bb2ac840e7fe5bb, type: 3}
-  alertable: 1
-  soundPos: {x: 0, y: 0, z: 0}
   isInvestigating: 0
+  soundPos: {x: 0, y: 0, z: 0}
   investigateSpeed: 4
   soundThreashold: 6
-  src: {fileID: 0}
-  alert: {fileID: 0}
-  huh: {fileID: 0}
   timeToWait: 3
 --- !u!195 &157879967453216189
 NavMeshAgent:
@@ -6103,7 +6100,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 0.8509804, a: 1}
-  m_Intensity: 10
+  m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 50
   m_InnerSpotAngle: 5

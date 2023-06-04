@@ -903,7 +903,7 @@ PrefabInstance:
       objectReference: {fileID: 1824095353}
     - target: {fileID: 3832952351681697424, guid: b4a47374145e89f46bfee1d0b6bbbde0, type: 3}
       propertyPath: m_text
-      value: 'Created By: Mike Hammond 5822283
+      value: 'Created By: Mike Hammond
 
         Created On: Mar 06 2023
 
@@ -930,6 +930,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1824095353}
+    - target: {fileID: 3832952352400792333, guid: b4a47374145e89f46bfee1d0b6bbbde0, type: 3}
+      propertyPath: m_text
+      value: S neaky Zombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832952352400792334, guid: b4a47374145e89f46bfee1d0b6bbbde0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1020
+      objectReference: {fileID: 0}
     - target: {fileID: 3832952352672387791, guid: b4a47374145e89f46bfee1d0b6bbbde0, type: 3}
       propertyPath: m_IsActive
       value: 1

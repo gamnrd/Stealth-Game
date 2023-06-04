@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using StarterAssets;
 
 public class PlayerLives : MonoBehaviour
 {
     [Header("Player Lives")]
     [SerializeField] public int lives = 3;
     [SerializeField] public bool isAlive = true;
+
+    private StarterAssetsInputs inputs;
 
 
     [Header("UI")]
@@ -35,6 +38,8 @@ public class PlayerLives : MonoBehaviour
         src = GetComponent<AudioSource>();
         Instance = this;
         player = GameObject.FindGameObjectWithTag("Player");
+        inputs = player.GetComponent<StarterAssetsInputs>();
+
     }
 
     // Start is called before the first frame update
@@ -113,6 +118,10 @@ public class PlayerLives : MonoBehaviour
                 player.SetActive(false);
                 captureText.SetActive(true);
                 timer = spawnDelay;
+                //Reset player movement inputs
+                inputs.move = Vector2.zero;
+                inputs.sprint = false;
+                inputs.jump = false;
                 respawn = true;
             }
         }
